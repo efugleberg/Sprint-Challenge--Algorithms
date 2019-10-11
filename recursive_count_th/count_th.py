@@ -5,6 +5,11 @@ Your function must utilize recursion. It cannot contain any loops.
 '''
 def count_th(word, count=0):
     
+
+    #  Could've implemented a helper function and passed that into
+    #  the body of count_th, but adding count=0 is cleaner, requires
+    #  less code, and reduces potential errors.
+
     # TBC
     if len(word) < 2:
         return count
